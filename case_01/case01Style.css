@@ -1,0 +1,38 @@
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    background: blueviolet;
+    color: white;
+    padding: 0 10px 0 10px;
+    box-shadow: 3px 3px 12px 1px black;
+
+    position: relative;
+    right: 160px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition-duration: 1500ms;
+}
+
+div {
+    font-size: 28px;
+}
+
+div span {
+    font-size: 18px;
+}
+
+div:hover {
+    right: 5px;
+}
