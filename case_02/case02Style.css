@@ -1,0 +1,44 @@
+body {
+    background: #1165ae;
+    overflow: hidden;
+}
+
+#mainDiv {
+    width: 500px;
+    aspect-ratio: 1/1;
+    background: #ffffff;
+    border: 30px solid;
+    background: gray;
+    border-color: #ff253a #ffffff #ffffff #ffffff;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+
+}
+
+div {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Anton, sans-serif;
+    font-size: 100px;
+    color: white;
+}
+
+#mainDiv:hover {
+    transform: rotate(360deg);
+    transition: 2000ms;
+}
